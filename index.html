@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=styles.css rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Api Quiz</title>
+</head>
+
+<body>
+    <div id= "main-container" class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Which is a HTML element?</div>
+            <div id="answer-buttons" class="grid">
+                <button onclick="selectAnswer(this)" class="button">Blue</button>
+                <button onclick="selectAnswer(this)" class="button">Green</button>
+                <button onclick="selectAnswer(this)" class="button">Elephant</button>
+                <button onclick="selectAnswer(this)" class="button">Div</button>
+            </div>
+            <div id="Score"></div>
+            <div id="Time"></div>
+        </div>
+        <div class="controls">
+            <button onclick="start()" id="start-button" class="start-button button">Start Quiz</button>
+            <button id="next-button" class="next-button button hide">Next Question</button>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
